@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064694E2216351A200114D26 /* UIView+QiCornerCliper.m in Sources */ = {isa = PBXBuildFile; fileRef = 064694E1216351A200114D26 /* UIView+QiCornerCliper.m */; };
 		069397EA216218DF00AE6C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069397E9216218DF00AE6C86 /* AppDelegate.m */; };
 		069397ED216218DF00AE6C86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069397EC216218DF00AE6C86 /* ViewController.m */; };
 		069397F0216218DF00AE6C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069397EE216218DF00AE6C86 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064694E0216351A200114D26 /* UIView+QiCornerCliper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QiCornerCliper.h"; sourceTree = "<group>"; };
+		064694E1216351A200114D26 /* UIView+QiCornerCliper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QiCornerCliper.m"; sourceTree = "<group>"; };
 		069397E5216218DF00AE6C86 /* QiViewCornerCliper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiViewCornerCliper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069397E8216218DF00AE6C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		069397E9216218DF00AE6C86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				069397E9216218DF00AE6C86 /* AppDelegate.m */,
 				069397EB216218DF00AE6C86 /* ViewController.h */,
 				069397EC216218DF00AE6C86 /* ViewController.m */,
+				064694E0216351A200114D26 /* UIView+QiCornerCliper.h */,
+				064694E1216351A200114D26 /* UIView+QiCornerCliper.m */,
 				069397EE216218DF00AE6C86 /* Main.storyboard */,
 				069397F1216218E000AE6C86 /* Assets.xcassets */,
 				069397F3216218E000AE6C86 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064694E2216351A200114D26 /* UIView+QiCornerCliper.m in Sources */,
 				069397ED216218DF00AE6C86 /* ViewController.m in Sources */,
 				069397F8216218E000AE6C86 /* main.m in Sources */,
 				069397EA216218DF00AE6C86 /* AppDelegate.m in Sources */,
